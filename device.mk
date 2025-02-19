@@ -27,6 +27,12 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+# SKU specific RROs
+PRODUCT_PACKAGES += \
+    SettingsM2101K9G \
+    SettingsM2101K9C \
+    SettingsM2101K9R
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)

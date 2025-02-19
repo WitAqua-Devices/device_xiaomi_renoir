@@ -1,0 +1,7 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+runtime_resource_overlay {
+    name: "SettingsM2101K9C",
+    product_specific: true,
+}
